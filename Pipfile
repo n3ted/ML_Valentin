@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ipykernel = "*"
+numpy = "*"
+matplotlib = "*"
+scikit-learn = "*"
+pandas = "*"
+black = "*"
+seaborn = "*"
+tensorflow = "*"
+statsmodels = "*"
+islp = "*"
+plotly-express = "*"
+nbformat = ">=5.3"
+jupyterlab = ">=3"
+ipywidgets = ">=7.5"
+notebook = ">=5.3"
+kaleido = "*"
+joblib = "*"
+
+[dev-packages]
+pylint = "*"
+
+[requires]
+python_version = "3.11"
